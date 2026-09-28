@@ -1,0 +1,14 @@
+package com.casamento.wedding_api.dto.Casamento;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public record CriarCasamentoDTO(
+        String nomeNoivo,
+        String nomeNoiva,
+        LocalDateTime dataEvento,
+        Integer limiteNoivo,
+        Integer limiteNoiva,
+        LocalDate dataLimiteConfirmacao
+) {
+}
